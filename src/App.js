@@ -1,14 +1,13 @@
+import Users from "./components/usersplaceholder/Users";
 
 
-import {useState} from "react";
-import RickAndMorty from "./components/function/RickMorty";
 
 function App() {
 
-
   return (
     <div>
-      <RickAndMorty/>
+<Users/>
+
     </div>
   );
 }
