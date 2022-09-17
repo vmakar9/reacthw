@@ -1,4 +1,4 @@
-import Users from "./components/usersplaceholder/Users";
+import Flights from "./components/space/SpaceX";
 
 
 
@@ -6,8 +6,7 @@ function App() {
 
   return (
     <div>
-<Users/>
-
+      <Flights/>
     </div>
   );
 }
