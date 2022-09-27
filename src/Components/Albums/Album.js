@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react";
-import {getAlbumsAxios} from "../api.servises/albums.axios";
+import {getAlbumsAxios} from "../../api.servises/albums.axios";
 import Albums from "./Albums";
 
 export default function Album(){

@@ -1,5 +1,5 @@
 import {useEffect,useState} from "react";
-import {getTodosAxios} from "../api.servises/todos.axios";
+import {getTodosAxios} from "../../api.servises/todos.axios";
 
 import Todos from "./Todos";
 

@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react";
-import {getPostAxios} from "../api.servises/post.axios";
+import {getPostAxios} from "../../api.servises/post.axios";
 import Posts from "./Posts";
 import {useParams} from "react-router-dom";
 

@@ -1,20 +1,16 @@
-import Todo from "./todos/Todo";
+import Todo from "./Components/todos/Todo";
 
-import {Link,Route,Routes} from "react-router-dom";
-import Home from "./Home/Home";
-import Album from "./Albums/Album";
-import Post from "./Post/Post";
-import Comment from "./Comments/Comment";
+import {Route,Routes} from "react-router-dom";
+import Home from "./Components/Home/Home";
+import Album from "./Components/Albums/Album";
+import Post from "./Components/Post/Post";
+import Comment from "./Components/Comments/Comment";
+import Page from "./Page/Page";
 
 function App() {
   return (
     <div>
-       <ul>
-           <li><Link to={'/'}>Home page</Link></li>
-           <li><Link to={'/todos'}>Todos </Link></li>
-           <li><Link to={'/albums'}>Albums</Link></li>
-           <li><Link to={'/comments'}>Comments</Link></li>
-       </ul>
+        <Page/>
         <Routes>
             <Route path={'/'} element={<Home/>}/>
             <Route path={'todos'} element={<Todo/>}/>
