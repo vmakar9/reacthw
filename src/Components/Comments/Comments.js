@@ -8,6 +8,5 @@ export default function Comments({comment}){
         <h3>{comment.body}</h3>
         <span><Link to={comment.postId.toString()}>Go to the Post</Link></span>
         <hr/>
-
     </div>)
 }
