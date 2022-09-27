@@ -1,11 +1,12 @@
-import Todo from "./Components/todos/Todo";
 
 import {Route,Routes} from "react-router-dom";
+
 import Home from "./Components/Home/Home";
 import Album from "./Components/Albums/Album";
 import Post from "./Components/Post/Post";
 import Comment from "./Components/Comments/Comment";
 import Page from "./Page/Page";
+import Todo from "./Components/todos/Todo";
 
 function App() {
   return (

@@ -1,7 +1,8 @@
 import {useEffect, useState} from "react";
 import {getCommentsAxios} from "../../api.servises/comments.axios";
-import Comments from "./Comments";
 import {Outlet} from "react-router-dom";
+
+import Comments from "./Comments";
 
 export default function Comment(){
 
